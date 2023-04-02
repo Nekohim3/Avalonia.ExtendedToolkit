@@ -21,7 +21,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetThumbFillBrush(IControl element)
         {
-            return element.GetValue(ThumbFillBrushProperty);
+            return element.GetValue<IBrush>(ThumbFillBrushProperty);
         }
 
         /// <summary>
@@ -47,7 +47,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetThumbFillHoverBrush(IControl element)
         {
-            return element.GetValue(ThumbFillHoverBrushProperty);
+            return element.GetValue<IBrush>(ThumbFillHoverBrushProperty);
         }
 
         /// <summary>
@@ -73,7 +73,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetThumbFillPressedBrush(IControl element)
         {
-            return element.GetValue(ThumbFillPressedBrushProperty);
+            return element.GetValue<IBrush>(ThumbFillPressedBrushProperty);
         }
 
         /// <summary>
@@ -99,7 +99,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetThumbFillDisabledBrush(IControl element)
         {
-            return element.GetValue(ThumbFillDisabledBrushProperty);
+            return element.GetValue<IBrush>(ThumbFillDisabledBrushProperty);
         }
 
         /// <summary>
@@ -125,7 +125,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetTrackFillBrush(IControl element)
         {
-            return element.GetValue(TrackFillBrushProperty);
+            return element.GetValue<IBrush>(TrackFillBrushProperty);
         }
 
         /// <summary>
@@ -151,7 +151,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetTrackFillHoverBrush(IControl element)
         {
-            return element.GetValue(TrackFillHoverBrushProperty);
+            return element.GetValue<IBrush>(TrackFillHoverBrushProperty);
         }
 
         /// <summary>
@@ -177,7 +177,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetTrackFillPressedBrush(IControl element)
         {
-            return element.GetValue(TrackFillPressedBrushProperty);
+            return element.GetValue<IBrush>(TrackFillPressedBrushProperty);
         }
 
         /// <summary>
@@ -203,7 +203,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetTrackFillDisabledBrush(IControl element)
         {
-            return element.GetValue(TrackFillDisabledBrushProperty);
+            return element.GetValue<IBrush>(TrackFillDisabledBrushProperty);
         }
 
         /// <summary>
@@ -229,7 +229,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetTrackValueFillBrush(IControl element)
         {
-            return element.GetValue(TrackValueFillBrushProperty);
+            return element.GetValue<IBrush>(TrackValueFillBrushProperty);
         }
 
         /// <summary>
@@ -255,7 +255,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetTrackValueFillHoverBrush(IControl element)
         {
-            return element.GetValue(TrackValueFillHoverBrushProperty);
+            return element.GetValue<IBrush>(TrackValueFillHoverBrushProperty);
         }
 
         /// <summary>
@@ -281,7 +281,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetTrackValueFillPressedBrush(IControl element)
         {
-            return element.GetValue(TrackValueFillPressedBrushProperty);
+            return element.GetValue<IBrush>(TrackValueFillPressedBrushProperty);
         }
 
         /// <summary>
@@ -307,7 +307,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetTrackValueFillDisabledBrush(IControl element)
         {
-            return element.GetValue(TrackValueFillDisabledBrushProperty);
+            return element.GetValue<IBrush>(TrackValueFillDisabledBrushProperty);
         }
 
         /// <summary>
@@ -333,7 +333,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static MouseWheelChange GetChangeValueBy(IControl element)
         {
-            return element.GetValue(ChangeValueByProperty);
+            return element.GetValue<MouseWheelChange>(ChangeValueByProperty);
         }
 
         /// <summary>

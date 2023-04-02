@@ -127,7 +127,7 @@ namespace Avalonia.ExtendedToolkit.Controls.PropertyGrid.Design
         {
             if (element == null)
                 throw new ArgumentNullException("obj");
-            return element.GetValue(CanCloseProperty);
+            return element.GetValue<bool>(CanCloseProperty);
         }
 
         /// <summary>
@@ -159,7 +159,7 @@ namespace Avalonia.ExtendedToolkit.Controls.PropertyGrid.Design
         {
             if (element == null)
                 throw new ArgumentNullException("obj");
-            return element.GetValue(HeaderProperty);
+            return element.GetValue<string>(HeaderProperty);
         }
 
         /// <summary>

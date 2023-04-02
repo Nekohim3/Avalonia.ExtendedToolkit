@@ -21,7 +21,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static bool GetVerticalScrollBarOnLeftSide(IControl element)
         {
-            return element.GetValue(VerticalScrollBarOnLeftSideProperty);
+            return element.GetValue<bool>(VerticalScrollBarOnLeftSideProperty);
         }
 
         /// <summary>

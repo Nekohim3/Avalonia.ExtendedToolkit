@@ -21,7 +21,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetActiveSelectionBackgroundBrush(IControl element)
         {
-            return element.GetValue(ActiveSelectionBackgroundBrushProperty);
+            return element.GetValue<IBrush>(ActiveSelectionBackgroundBrushProperty);
         }
 
         /// <summary>
@@ -47,7 +47,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetActiveSelectionForegroundBrush(IControl element)
         {
-            return element.GetValue(ActiveSelectionForegroundBrushProperty);
+            return element.GetValue<IBrush>(ActiveSelectionForegroundBrushProperty);
         }
 
         /// <summary>
@@ -73,7 +73,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetSelectedBackgroundBrush(IControl element)
         {
-            return element.GetValue(SelectedBackgroundBrushProperty);
+            return element.GetValue<IBrush>(SelectedBackgroundBrushProperty);
         }
 
         /// <summary>
@@ -99,7 +99,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetSelectedForegroundBrush(IControl element)
         {
-            return element.GetValue(SelectedForegroundBrushProperty);
+            return element.GetValue<IBrush>(SelectedForegroundBrushProperty);
         }
 
         /// <summary>
@@ -125,7 +125,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetHoverBackgroundBrush(IControl element)
         {
-            return element.GetValue(HoverBackgroundBrushProperty);
+            return element.GetValue<IBrush>(HoverBackgroundBrushProperty);
         }
 
         /// <summary>
@@ -151,7 +151,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetHoverSelectedBackgroundBrush(IControl element)
         {
-            return element.GetValue(HoverSelectedBackgroundBrushProperty);
+            return element.GetValue<IBrush>(HoverSelectedBackgroundBrushProperty);
         }
 
         /// <summary>
@@ -177,7 +177,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetDisabledSelectedBackgroundBrush(IControl element)
         {
-            return element.GetValue(DisabledSelectedBackgroundBrushProperty);
+            return element.GetValue<IBrush>(DisabledSelectedBackgroundBrushProperty);
         }
 
         /// <summary>
@@ -203,7 +203,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetDisabledSelectedForegroundBrush(IControl element)
         {
-            return element.GetValue(DisabledSelectedForegroundBrushProperty);
+            return element.GetValue<IBrush>(DisabledSelectedForegroundBrushProperty);
         }
 
         /// <summary>
@@ -229,7 +229,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetDisabledBackgroundBrush(IControl element)
         {
-            return element.GetValue(DisabledBackgroundBrushProperty);
+            return element.GetValue<IBrush>(DisabledBackgroundBrushProperty);
         }
 
         /// <summary>
@@ -255,7 +255,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetDisabledForegroundBrush(IControl element)
         {
-            return element.GetValue(DisabledForegroundBrushProperty);
+            return element.GetValue<IBrush>(DisabledForegroundBrushProperty);
         }
 
         /// <summary>

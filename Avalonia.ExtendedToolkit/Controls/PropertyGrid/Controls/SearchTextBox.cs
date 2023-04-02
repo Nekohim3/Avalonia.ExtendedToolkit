@@ -170,7 +170,7 @@ namespace Avalonia.ExtendedToolkit.Controls.PropertyGrid.Controls
             {
                 iconBorder.PointerPressed += IconBorderMouseLeftButtonDown;
                 iconBorder.PointerReleased += IconBorderMouseLeftButtonUp;
-                iconBorder.PointerLeave += IconBorderMouseLeave;
+                iconBorder.PointerExited += IconBorderMouseLeave;
                 ;
             }
             base.OnApplyTemplate(e);
@@ -252,7 +252,7 @@ namespace Avalonia.ExtendedToolkit.Controls.PropertyGrid.Controls
         /// that exist on the element have had their effective values changed.
         /// </summary>
         /// <param name="e">Arguments for the associated event.</param>
-        protected override void OnPropertyChanged<T>(AvaloniaPropertyChangedEventArgs<T> e)
+        protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs e)
         {
             if(e.Property== IsVisibleProperty)
             {

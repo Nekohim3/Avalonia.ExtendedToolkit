@@ -157,7 +157,7 @@ namespace Avalonia.Controlz.Helper
         /// <returns></returns>
         public static Classes GetClasses(IStyledElement element)
         {
-            return element.GetValue(ClassesProperty);
+            return element.GetValue<Classes>(ClassesProperty);
         }
 
         /// <summary>

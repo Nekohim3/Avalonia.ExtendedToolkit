@@ -173,7 +173,7 @@ namespace Avalonia.ExtendedToolkit.Controls
 
             btnMenu = e.NameScope.Find<ToggleButton>("toggleMenu");
 
-            btnMenu.PointerLeave += (o, e) =>
+            btnMenu.PointerExited += (o, e) =>
             {
                 e.Pointer.Capture(null);
             };

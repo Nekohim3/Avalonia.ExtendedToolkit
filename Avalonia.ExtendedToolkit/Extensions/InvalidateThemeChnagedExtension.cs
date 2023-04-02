@@ -16,7 +16,7 @@ namespace Avalonia.ExtendedToolkit.Extensions
         /// </summary>
         public static bool GetIsAttached(IControl element)
         {
-            return element.GetValue(IsAttachedProperty);
+            return element.GetValue<bool>(IsAttachedProperty);
         }
 
         /// <summary>

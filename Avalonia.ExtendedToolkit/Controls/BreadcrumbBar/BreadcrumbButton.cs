@@ -200,7 +200,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// sets <see cref="IsPressed"/> to false
         /// </summary>
         /// <param name="e"></param>
-        protected override void OnPointerLeave(PointerEventArgs e)
+        protected override void OnPointerExited(PointerEventArgs e)
         {
             IsPressed = false;
         }
@@ -253,7 +253,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// updates <see cref="IsPressed"/> 
         /// </summary>
         /// <param name="e"></param>
-        protected override void OnPointerEnter(PointerEventArgs e)
+        protected override void OnPointerEntered(PointerEventArgs e)
         {
             var prop = e.GetCurrentPoint(this).Properties;
 
@@ -272,7 +272,7 @@ namespace Avalonia.ExtendedToolkit.Controls
 
             IsPressed = isPressed;
 
-            base.OnPointerEnter(e);
+            base.OnPointerEntered(e);
         }
 
         /// <summary>

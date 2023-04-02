@@ -21,7 +21,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IStyle GetStyle(IStyledElement element)
         {
-            return element.GetValue(StyleProperty);
+            return element.GetValue<IStyle>(StyleProperty);
         }
 
         /// <summary>
@@ -56,7 +56,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static Classes GetClasses(IStyledElement element)
         {
-            return element.GetValue(ClassesProperty);
+            return element.GetValue<Classes>(ClassesProperty);
         }
 
         /// <summary>

@@ -23,7 +23,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static bool GetCloseButtonEnabled(IControl element)
         {
-            return element.GetValue(CloseButtonEnabledProperty);
+            return element.GetValue<bool>(CloseButtonEnabledProperty);
         }
 
         /// <summary>
@@ -49,7 +49,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static ICommand GetCloseTabCommand(IControl element)
         {
-            return element.GetValue(CloseTabCommandProperty);
+            return element.GetValue<ICommand>(CloseTabCommandProperty);
         }
 
         /// <summary>
@@ -102,7 +102,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static UnderlinedType GetUnderlined(IControl element)
         {
-            return element.GetValue(UnderlinedProperty);
+            return element.GetValue<UnderlinedType>(UnderlinedProperty);
         }
 
         /// <summary>
@@ -133,7 +133,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static bool GetIsTabPanelSelected(IControl element)
         {
-            return element.GetValue(IsTabPanelSelectedProperty);
+            return element.GetValue<bool>(IsTabPanelSelectedProperty);
         }
 
         /// <summary>
@@ -160,7 +160,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetUnderlineBrush(IControl element)
         {
-            return element.GetValue(UnderlineBrushProperty);
+            return element.GetValue<IBrush>(UnderlineBrushProperty);
         }
 
         /// <summary>
@@ -187,7 +187,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetUnderlineSelectedBrush(IControl element)
         {
-            return element.GetValue(UnderlineSelectedBrushProperty);
+            return element.GetValue<IBrush>(UnderlineSelectedBrushProperty);
         }
 
         /// <summary>
@@ -214,7 +214,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetUnderlineMouseOverBrush(IControl element)
         {
-            return element.GetValue(UnderlineMouseOverBrushProperty);
+            return element.GetValue<IBrush>(UnderlineMouseOverBrushProperty);
         }
 
         /// <summary>
@@ -241,7 +241,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static IBrush GetUnderlineMouseOverSelectedBrush(IControl element)
         {
-            return element.GetValue(UnderlineMouseOverSelectedBrushProperty);
+            return element.GetValue<IBrush>(UnderlineMouseOverSelectedBrushProperty);
         }
 
         /// <summary>
@@ -268,7 +268,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static TransitionType GetTransition(IControl element)
         {
-            return element.GetValue(TransitionProperty);
+            return element.GetValue<TransitionType>(TransitionProperty);
         }
 
         /// <summary>
@@ -294,7 +294,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// <returns></returns>
         public static Dock? GetUnderlinePlacement(IControl element)
         {
-            return element.GetValue(UnderlinePlacementProperty);
+            return element.GetValue<Dock?>(UnderlinePlacementProperty);
         }
 
         /// <summary>

@@ -23,9 +23,9 @@ namespace Avalonia.ExtendedToolkit.Controls
         {
             Items = new AvaloniaList<WizardPage>();
 
-            CurrentPageProperty.Changed.AddClassHandler((Action<Wizard, AvaloniaPropertyChangedEventArgs>)((o, e) => OnCurrentPageChanged(o, e)));
-            ItemsPanelProperty.Changed.AddClassHandler((Action<Wizard, AvaloniaPropertyChangedEventArgs>)((o, e) => OnItemChanged(o, e)));
-            ItemsProperty.Changed.AddClassHandler((Action<Wizard, AvaloniaPropertyChangedEventArgs>)((o, e) => OnItemSourceChanged(o, e)));
+            CurrentPageProperty.Changed.AddClassHandler<Wizard>((Action<Wizard, AvaloniaPropertyChangedEventArgs>)((o, e) => OnCurrentPageChanged(o, e)));
+            ItemsPanelProperty.Changed.AddClassHandler<Wizard>((Action<Wizard, AvaloniaPropertyChangedEventArgs>)((o,  e) => OnItemChanged(o, e)));
+            ItemsProperty.Changed.AddClassHandler<Wizard>((Action<Wizard, AvaloniaPropertyChangedEventArgs>)((o,       e) => OnItemSourceChanged(o, e)));
 
             Initialized += (o, e) =>
             {
@@ -89,7 +89,7 @@ namespace Avalonia.ExtendedToolkit.Controls
         /// fires can execute on the commands
         /// </summary>
         /// <param name="e"></param>
-        protected override void OnPropertyChanged<T>(AvaloniaPropertyChangedEventArgs<T> e)
+        protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs e)
         {
             base.OnPropertyChanged(e);
             if (
