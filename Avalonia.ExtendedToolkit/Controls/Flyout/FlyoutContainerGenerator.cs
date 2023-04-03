@@ -7,7 +7,7 @@ namespace Avalonia.ExtendedToolkit.Controls
     /// <summary>
     /// FlyoutContainerGenerator
     /// </summary>
-    public class FlyoutContainerGenerator : ItemContainerGenerator<Flyout>
+    public class FlyoutContainerGenerator : ItemContainerGenerator
     {
         /// <summary>
         /// sets the owner
